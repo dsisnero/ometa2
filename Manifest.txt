@@ -1,9 +1,13 @@
 .autotest
+.rspec
 History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/ometa
-lib/ometa.rb
-spec/spec_helper.rb
+bin/ometa2
+lib/ometa2.rb
+lib/ometa2/core.rb
+lib/ometa2/parser.rb
+lib/ometa2/result.rb
 spec/ometa_spec.rb
+spec/spec_helper.rb

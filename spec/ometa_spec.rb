@@ -1,9 +1,9 @@
 require_relative 'spec_helper'
 
-require "ometa"
+require "ometa2"
 
-describe Ometa do
- it "can be created" do
+module OMeta2
+   it "can be created" do
    Ometa.new.must_be_instance_of Ometa
  end
 end

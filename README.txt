@@ -1,26 +1,26 @@
 = ometa
 
-* FIX (url)
+  https://github.com/dsisnero/ometa2
 
 == DESCRIPTION:
 
-FIX (describe your package)
+An implementation of OMeta in ruby
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+sudo gem install ometa2
 
 == DEVELOPERS:
 

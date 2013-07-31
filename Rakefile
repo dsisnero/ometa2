@@ -2,10 +2,13 @@
 
 require 'rubygems'
 require 'hoe'
+require 'rake/clean'
+
+CLEAN.include "**/#*.*#"
 
 Hoe.plugin :bundler
 
-# Hoe.plugin :compiler
+  Hoe.plugin :bundler
 # Hoe.plugin :compiler
 # Hoe.plugin :gem_prelude_sucks
 # Hoe.plugin :gem_prelude_sucks
@@ -30,6 +33,10 @@ Hoe.spec 'ometa' do
   dependency('ZenTest', '> 0.0.0', :dev)
   dependency('cucumber', '> 0.0.0', :dev)
   dependency('aruba', '> 0.0.0', :dev)
+  dependency('concord', '> 0.0.0')
+  dependency('abstract_type', '> 0.0.0')
+  dependency('monadic', '> 0.0.0')
+  license 'MIT'
 
   ##
   # Optional: Extra files you want to add to RDoc.

@@ -5,7 +5,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'rspec'
-require 'ometa'
+require 'ometa2'
 
 
 RSpec.configure do |config|
@@ -13,5 +13,3 @@ RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
 end
-
-
