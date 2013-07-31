@@ -1,3 +1,4 @@
+require_relative 'result'
 module OMeta2
 
 
